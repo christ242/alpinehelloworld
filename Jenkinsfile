@@ -1,6 +1,5 @@
 /* import shared library */
-@Library('kitepoye-shared-library')
-
+@Library('kitepoye-shared-library')_
 pipeline {
      environment {
        ID_DOCKER = "${ID_DOCKER_PARAMS}"
